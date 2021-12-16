@@ -16,6 +16,7 @@
       background: rebeccapurple;
       top: 80px;
       bottom: 0;
+      left: 0;
       margin: auto;
     }
     header{
@@ -60,33 +61,6 @@
     body>main>section>section{
       display: inline;
     }
-    /*body>main>section>section>div:nth-child(1){
-      position: absolute;
-      left: 200px;
-      margin: auto;
-      height: 250px;
-      border: 2px solid black;
-      display: inline;
-    }
-    body>main>section>section>div:nth-child(2){
-      position: absolute;
-      left: 575px;
-      margin: auto;
-      right: 400px;
-      height: 250px;
-      border: 2px solid black;
-      display: inline;
-    }
-    body>main>section>section>div:nth-child(3){
-      position: absolute;
-      left: 200px;
-      margin: auto;
-      right: 0;
-      height: 250px;
-      border: 2px solid black;
-      display: inline;
-    }*/
-
     body>main>section>section>div:nth-child(1){
       border: 2px solid black;
       height: 250px;
@@ -115,15 +89,28 @@
       display: inline;
     }
     body>main>section>p{
+      width: 83vw;
       position: relative;
       background: red;
-      top: 270px;
+      top: 260px;
       left: 205px;
-      bottom: 0;
-      right: 0;
-      margin: auto;
+      right: 200px;
     }
-
+    footer{
+      position: absolute;
+      width: 99vw;
+      height: 40px;
+      background-color: #917a7a;
+      bottom: 0;
+    }
+    footer>p{
+      position: relative;
+      left: 50vw;
+      top: 10px;
+      margin: auto;
+      font-weight: bold;
+      color: white;
+    }
   </style>
 
 </head>
@@ -194,7 +181,5 @@
 <footer>
   <p>Developed By IJSE</p>
 </footer>
-
-
 </body>
 </html>
