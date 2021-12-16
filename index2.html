@@ -10,6 +10,14 @@
   <link href="assets/CSS/normalize.css" rel="stylesheet">
 
   <style>
+    body>main>nav{
+      position: absolute;
+      width: 200px;
+      background: rebeccapurple;
+      top: 80px;
+      bottom: 0;
+      margin: auto;
+    }
     header{
       height: 80px;
       position: relative;
@@ -36,6 +44,30 @@
     header>ul>li:hover{
       cursor: pointer;
     }
+    body>main>section:nth-child(2)>p{
+      margin: auto;
+      left: 100px;
+    }
+    body>main>nav>ul>li{
+      position: relative;
+      left: 0;
+      top: 20px;
+      padding: 10px;
+      font-size: 20px;
+      list-style: none;
+      color: white;
+      font-family: "Berlin Sans FB Demi" , cursive;
+    }
+    body>main>nav>ul>li:hover{
+      cursor: pointer;
+    }
+    body>main>section:nth-child(2)>p{
+      position: sticky;
+      background: red;
+      margin-left: 200px;
+      top: 80px;
+    }
+
   </style>
 
 </head>
