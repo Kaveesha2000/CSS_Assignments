@@ -13,31 +13,28 @@
         }
 
         body > section {
+            border: 2px solid green;
             height: 200px;
             position: relative;
+            display: flex;
         }
 
         body > section > div {
             border: 2px solid red;
-            position: absolute;
             height: 200px;
             width: calc(100% / 4);
         }
 
         body > section > div:nth-child(1) {
-            left: 0;
         }
 
         body > section > div:nth-child(2) {
-            left: calc(100% / 4);
         }
 
         body > section > div:nth-child(3) {
-            left: calc((100% / 4) * 2);
         }
 
         body > section > div:nth-child(4) {
-            left: calc((100% / 4) * 3);
         }
     </style>
 </head>
