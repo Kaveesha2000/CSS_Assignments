@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case1</title>
+    <style>
+        section{
+            height: 200px;
+            position: relative;
+        }
+        section>div{
+            border: 2px solid red;
+            position: absolute;
+            height: 200px;
+            width: calc(100%/4);
+        }
+        section>div:nth-child(1){
+            left: 0;
+        }
+        section>div:nth-child(2){
+            left: calc(100%/4);
+        }
+        section>div:nth-child(3){
+            left: calc((100%/4)*2);
+        }
+        section>div:nth-child(4){
+            left: calc((100%/4)*3);
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+</body>
+</html>
