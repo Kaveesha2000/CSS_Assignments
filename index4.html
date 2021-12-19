@@ -4,6 +4,59 @@
     <meta charset="UTF-8">
     <link href="assets/CSS/normalize.css" rel="stylesheet">
     <title>Case 04</title>
+    <style>
+        /*whole content*/
+        body > section > section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        /*headers borders*/
+        body > section > section > div:nth-child(1) {
+            position: sticky;
+            height: 60px;
+            width: 100%;
+            top: 0;
+        }
+
+        /*header contents*/
+        body > section > section > div:nth-child(1) > p {
+            position: absolute;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        /*middle contents*/
+        body > section > section > div:nth-child(2) > p {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            margin: 0;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 130px;
+            font-weight: bold;
+            color: black;
+        }
+
+        body > section > section:nth-child(1) > div:nth-child(1) {
+            background-color: red;
+        }
+
+        body > section > section:nth-child(2) > div:nth-child(1) {
+            background-color: dodgerblue;
+        }
+
+        body > section > section:nth-child(3) > div:nth-child(1) {
+            background-color: black;
+        }
+
+        body > section > section:nth-child(4) > div:nth-child(1) {
+            background-color: darkred;
+        }
+    </style>
 </head>
 <body>
 <section>
@@ -16,34 +69,28 @@
         </div>
     </section>
     <section>
-        <section>
-            <div>
-                <p>Card 2</p>
-            </div>
-            <div>
-                <p>How</p>
-            </div>
-        </section>
+        <div>
+            <p>Card 2</p>
+        </div>
+        <div>
+            <p>How</p>
+        </div>
     </section>
     <section>
-        <section>
-            <div>
-                <p>Card 3</p>
-            </div>
-            <div>
-                <p>Are</p>
-            </div>
-        </section>
+        <div>
+            <p>Card 3</p>
+        </div>
+        <div>
+            <p>Are</p>
+        </div>
     </section>
     <section>
-        <section>
-            <div>
-                <p>Card 4</p>
-            </div>
-            <div>
-                <p>You..?</p>
-            </div>
-        </section>
+        <div>
+            <p>Card 4</p>
+        </div>
+        <div>
+            <p>You..?</p>
+        </div>
     </section>
 </section>
 </body>
