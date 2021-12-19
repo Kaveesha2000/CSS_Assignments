@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case No-03</title>
+    <style>
+        body > section > section:nth-child(1) {
+            position: absolute;
+            border: 20px solid rosybrown;
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+        }
+
+        body > section > section:nth-child(2) {
+            position: absolute;
+            border: 20px solid red;
+            width: 260px;
+            height: 260px;
+            border-radius: 100%;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+        }
+
+        body > section > section:nth-child(3) > div:nth-child(1) {
+            position: absolute;
+            width: 260px;
+            height: 260px;
+            background-color: rebeccapurple;
+            border-radius: 100%;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+
+            animation-duration: 3s;
+            animation-name: slidein;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes slidein {
+            from {
+                margin-top: 100%;
+                width: 260px;
+                height: 260px;
+            }
+
+            to {
+                margin-top: 150px;
+                width: 260px;
+                height: 260px;
+            }
+        }
+
+        body>section>section:nth-child(3)>div:nth-child(1)>p{
+            position: absolute;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 50px;
+            top: 40px;
+            left: 0;
+            right: 0;
+        }
+
+        body > section > section:nth-child(3) > div:nth-child(2) {
+            position: absolute;
+            width: 260px;
+            height: 260px;
+            background-color: dodgerblue;
+            border-radius: 100%;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+
+            animation-duration: 3s;
+            animation-name: slidein;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        body > section > section:nth-child(3) > div:nth-child(3) {
+            position: absolute;
+            width: 260px;
+            height: 260px;
+            background-color: orange;
+            border-radius: 100%;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+
+            animation-duration: 3s;
+            animation-name: slidein;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <section></section>
+    <section></section>
+    <section>
+        <div><p>Hello</p></div>
+        <div>B</div>
+        <div>C</div>
+    </section>
+</section>
+</body>
+</html>
